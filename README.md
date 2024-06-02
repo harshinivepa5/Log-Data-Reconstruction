@@ -1,6 +1,7 @@
 # Log-Data-Reconstruction
 Project Overview:
 The objective of this project is to predict missing well log data, particularly the Gamma value, using machine learning techniques. Data is collected from sensors and transformed into accessible CSV format. Data preprocessing involves feature selection and cleaning to remove insignificant columns and empty cells. The dataset is split into training and test sets, with well "C6" as the test data. Model selection is performed using Dataiku Lab, and the Random Forest algorithm with an R2 score of 0.885 is chosen. Model evaluation on the test data shows accurate predictions with a negligible absolute error, indicating the model's ability to generalize. This model can be deployed for log data reconstruction. This project is performed in a no-code platform called Dataiku. This regression-based solution optimizes costs and achieves efficiency through the implementation of ML algorithms. By employing fine-tuning and optimization techniques, we further increased the model's efficiency by 10%, enhancing its accuracy and performance in predicting missing well log data.
+
 Key Features and Functioning:
 1. Data Collection:Raw sensor data undergoes transformation into a CSV format, facilitating easier handling and analysis.
 2. Data Preprocessing:Through meticulous feature selection and cleaning, insignificant columns are removed, and missing values are appropriately addressed, ensuring the dataset's quality and integrity.
